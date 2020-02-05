@@ -2,3 +2,47 @@ body {
     background-color: blanchedalmond;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.cardlist {
+    list-style: none;
+}
+
+.card {
+    width: 600px;
+    margin: 10px;
+    padding: 5px;
+    border: solid black 2px;
+}
+
+.image {
+    width: 300px;
+    margin: 20px;
+}
+
+.smallimage {
+    width: 150px;
+    margin: 20px;
+}
+
+.mainheading {
+    font-size: 60px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+.subheading {
+    font-size: 48px;
+    width: 250px;
+    margin: auto;
+}
+
+.intro {
+    width: 1080px;
+    margin: auto;
+}
+
+.info {
+    width: 600px;
+    float: right;
+}
