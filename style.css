@@ -17,6 +17,24 @@ body {
     font-size: 18px;
 }
 
+.blogContent {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    clear: both;
+}
+
+.blogImage {
+    float: left;
+    margin: 20px;
+    width: 500px;
+}
+
+.blogMetaInfo {
+    font-size: 0.75em;
+    margin: 10px;
+}
+
 .button {
     background-color: blue;
     border: none;
@@ -44,6 +62,10 @@ body {
     border: dashed black 3px;
 }
 
+.clearFix {
+    clear: both;
+}
+
 .image {
     width: 300px;
     margin: 20px;
@@ -56,6 +78,7 @@ body {
 
 .mainheading {
     font-size: 60px;
+    text-align: center;
     width: 450px;
     margin: auto;
     padding: 20px;
@@ -66,6 +89,16 @@ body {
     width: 250px;
     margin: auto;
     box-sizing: border-box;
+}
+
+.socialIcons {
+    width: 30px;
+    display: block;
+    float: right;
+}
+
+.socialIcons:hover {
+    cursor: pointer;
 }
 
 .intro {
