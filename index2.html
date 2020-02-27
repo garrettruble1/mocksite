@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+
+    <!-- PAGE FLEX CONTAINER (Affects main sections) -->
+    <div class="pagecontainer">
+
+        <!-- BIO SECTION (Flex Container, Affects section content) -->
+        <div class="section">
+
+            <!-- Main Header-->
+            <h1 class="mainheading">Garrett Ruble</h1>
+
+
+            <!-- Picture -->
+            <picture class="heroimage">
+                <source media="(min-width: 401px)" srcset="images/FierceFlowEdit.jpg" />
+
+                <source media="(max-width: 401px)" srcset="images/FierceFlowEdit_Small.jpg" />
+
+                <img src="images/FierceFlowEdit_Small.jpg" alt="Picture Of Me">
+            </picture>
+
+
+            <!-- Bio -->
+            <div class="aboutme">
+                <h2 class="subheading">About Me</h2>
+                <div class="info">
+                    <p>Hi there! I'm Garrett. I'm 25, and from Indianapolis, Indiana.
+                        Some of my favorite things to do include listening to music,
+                        drawing, and meditation. I'm currently in a training program learning
+                        User Experience Design with Kenzie Academy.
+                    </p>
+                    <p>I hope to focus on the design portion of the process in future
+                        employment. I enjoy the creation process of how user research
+                        is utilized to manifest sensible, efficient, and polished
+                        user interface design. Here are some skills I hope to use
+                        regularly in a job:
+                    </p>
+                    <ul class="skills">
+                        <li>Animation</li>
+                        <li>Material Design System</li>
+                        <li>Illustration</li>
+                    </ul>
+                    <a class="button">More</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- WORK SECTION (Flex Container, Affects section content)-->
+        <div class="section">
+
+            <!-- Sub Header -->
+            <h2 class="subheading">My Work</h2>
+
+            <!-- Card 1 (Flex, Affects card content) -->
+            <div class="card">
+
+                <!-- Heading -->
+                <h3 class="cardheading">Jason Seiler Digital Painting</h3>
+                <!-- Picture -->
+                <picture class="cardpicture">
+                    <source media="max-width: 401px" srcset="images/JasonSeilerSmall.png" />
+                    <source media="min-width: 401px" srcset="images/JasonSeiler.png">
+
+                    <img src="images/JasonSeilerSmall.png" alt="Jason Seiler Digital Painting">
+                </picture>
+                <!-- Description -->
+                <p class="description">A digital painting of Jason Seiler completed in 2015.</p>
+                <!-- Button -->
+                <span class="buttoncontainer"><a class="button">More</a></span>
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <!-- Heading -->
+                <h3 class="cardheading">Perfume Illustration</h3>
+                <!-- Picture -->
+                <picture class="cardpicture">
+                    <source media="max-width: 401px" srcset="images/CosmicExplorerWallpaper1Small.png" />
+                    <source media="min-width: 401px" srcset="images/CosmicExplorerWallpaper1.png">
+
+                    <img src="images/CosmicExplorerWallpaper1Small.png" alt="Nocchi Illustration">
+                </picture>
+                <!-- Description -->
+                <p class="description">A digital minimalistic illustration of Nocchi from Perfume, completed in 2016.
+                </p>
+                <!-- Button -->
+                <span class="buttoncontainer"><a class="button">More</a></span>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+
+                <!-- Heading -->
+                <h3 class="cardheading">Ramona Flowers Illustration</h3>
+                <!-- Picture -->
+                <picture class="cardpicture">
+                    <source media="max-width: 401px" srcset="images/RamonaBlueSmall.png" />
+                    <source media="min-width: 401px" srcset="images/RamonaBlue.png">
+
+                    <img src="images/RamonaBlueSmall.png" alt="Ramona Flowers Illustration">
+                </picture>
+                <!-- Description -->
+                <p class="description">A digital illustration of Ramona Flowers from Scott Pilgrim VS The World,
+                    completed in 2017.</p>
+                <!-- Button -->
+                <span class="buttoncontainer"><a class="button">More</a></span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,383 @@
+
+
+/* ===== UNIVERSAL PROPERTIES =====*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+/* ===== MOBILE ===== */
+
+@media only screen and (max-width: 480px) {
+
+    /* FLEX CONTAINERS */
+
+    .pagecontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* BIO SECTION CLASSES */
+
+    .mainheading {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .heroimage > img {
+        width: 100%;
+        margin: auto;
+        max-height: 400px;
+        min-width: 40%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .subheading {
+        width: 100%;
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .info {
+        margin: 15px;
+    }
+
+    .skills {
+        margin: 20px auto;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .button {
+        margin: auto;
+        margin-bottom: 10px;
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+          cursor: pointer;
+      }
+
+      /* WORK SECTION */
+
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        }
+
+    .cardheading {
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cardpicture > img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .description {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+/* ===== TABLET ===== */
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+
+    /* FLEX CONTAINERS */
+
+    .pagecontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* BIO SECTION */
+
+    .mainheading {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .heroimage {
+        width: 50%;
+    }
+
+    .heroimage > img {
+        max-height: 500px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        padding: 20px;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .subheading {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .skills {
+        margin: 20px auto;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .button {
+        margin: auto;
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+          cursor: pointer;
+      }
+
+      .buttoncontainer {
+          width: 100%;
+      }
+
+      /* WORK SECTION */
+
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        }
+
+    .cardheading {
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cardpicture {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .cardpicture > img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .description {
+        width: 40%;
+        margin: 20px;
+    }
+
+}
+
+
+
+
+
+/* ===== DESKTOP ===== */
+
+@media only screen and (min-width: 1024px) {
+
+    /* FLEX CONTAINERS */
+
+    .pagecontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* BIO SECTION */
+
+    .mainheading {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .heroimage {
+        width: 40%;
+    }
+
+    .heroimage > img {
+        width: 100%;
+        padding: 10px;
+        max-height: 80vh;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .subheading {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .skills {
+        margin: 20px auto;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .button {
+        margin: auto;
+        margin-bottom: 10px;
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+          cursor: pointer;
+      }
+
+      /* WORK SECTION */
+
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 48%;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        }
+
+      .cardheading {
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+
+      .cardpicture {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .cardpicture > img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .description {
+        width: 40%;
+        margin: 20px;
+    }
+
+}
