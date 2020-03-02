@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+
+<header>
+    
+    <h1 class="mainheading">Contact Me!</h1>
+
+</header>
+
+<div class="formwrapper">
+
+    <form action="https://formspree.io/mnqvgpww" method="POST" class="contactform">
+
+        <label class="formlabel" for="name">Name</label>
+        <input type="text" name="name" required>
+
+        <label class="formlabel for="email">Email</label>
+        <input type="email" name="email" required>
+
+        <fieldset class="formfieldset">
+            <legend class="formlabel">Favorite Music Genre</legend>
+            
+            <input name="alternative" type="radio" value="alternative" />
+            <label for="alternative">Alternative</label>
+
+            <input name="rock" type="radio" value="rock" />
+            <label for="rock">Rock</label>
+
+            <input name="pop" type ="radio" value="pop" />
+            <label for="pop">Pop</label>
+        </fieldset>
+
+        <label class="formlabel for="message">Your message...</label>
+        <textarea name="Message" required></textarea>
+
+        <button class="formsubmit" type="submit">Submit</button>
+
+    </form>
+
+</div>
+
+
+</body>
+
+</html>

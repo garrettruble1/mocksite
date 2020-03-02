@@ -381,3 +381,106 @@ ul {
     }
 
 }
+
+/* FORM STYLING */
+
+input, textarea {
+    border: solid black 2px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 15px;;
+}
+
+textarea {
+    height: 100px;
+}
+
+.formfieldset {
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+
+.contactform {
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+
+.formlabel {
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.formsubmit {
+    margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+
+
+
+/* TABLET AND LARGER */
+
+@media only screen and (min-width: 787px) {
+
+    .contactform {
+        background-color: white;
+        border: black solid 2px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .contactform > label {
+        width: 15%;
+    }
+
+    .contactform > input {
+        width: 80%;
+    }
+
+    .contactform > textarea {
+        width: 95%;
+        margin: auto;
+    }
+
+    .formfieldset {
+        width: 90%;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .formfieldset > label,
+    .formfieldset > input {
+        width: 20%;
+        margin: auto;
+    }
+
+    .formlabel {
+        font-family: 'Oswald', sans-serif;
+        font-style: oblique;
+    }
+
+}
